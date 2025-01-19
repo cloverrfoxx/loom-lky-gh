@@ -1,0 +1,23 @@
+{
+    "all": {
+        "dependencies": [
+            "loom"
+        ]
+    },
+    "loom": {
+        "dependencies": [
+            "src/loom.ls"
+        ],
+        "commands": [
+            "rm loom",
+            "lky -s -d src/loom.ls -o dddd",
+            "mv dddd loom"
+        ]
+    },
+    "clean": {
+        "commands": [
+            "rm loom",
+            "rm .hash.yarn"
+        ]
+    }
+}
